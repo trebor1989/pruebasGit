@@ -13,15 +13,8 @@ package paqueteRoberto;
  *
  */
 public class ModificadaPorAmbos {
-    public static void main(String[] args) {
-        javax.swing.JOptionPane.showMessageDialog(null, "Hola Mundo modificada por ambos");
-    }
+    int x;
+    public void x (int x){
     
-    private void metodoRoberto(){
-        
-        for (int i = 0; i < 10; i++) {
-            javax.swing.JOptionPane.showMessageDialog(null, "Nº: " + i);
-        }
-        
-    }
-}
+    this.x = x;
+    }}
